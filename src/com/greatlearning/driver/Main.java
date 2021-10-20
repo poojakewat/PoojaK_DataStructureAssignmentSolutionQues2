@@ -52,7 +52,6 @@ public class Main
 		node.left = new Node(30);
 		node.right = new Node(60);
 		node.left.left = new Node(10);
-
 		node.left.right = new Node(40);
 
 		BTToSkewed(node);
